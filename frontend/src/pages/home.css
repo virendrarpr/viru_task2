@@ -1,0 +1,121 @@
+/* Google Fonts - Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.input-box {
+  position: relative;
+  height: 76px;
+  max-width: 900px;
+  width: 100%;
+  background-color: #eeeeee;
+  border-radius: 0.4rem;
+  margin:auto;
+  margin-top: 4rem;
+  border-radius: 8px;
+}
+.input-box i,
+.input-box .button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.input-box i {
+  left: 20px;
+  font-size: 30px;
+  color: #707070;
+}
+.input-box input {
+  height: 100%;
+  width: 100%;
+  outline: none;
+  font-size: 18px;
+  font-weight: 400;
+  border: none;
+  padding: 0 155px 0 65px;
+  background-color: transparent;
+}
+.input-box .button {
+  right: 20px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 6px;
+  background-color: #4070f4;
+  cursor: pointer;
+}
+.input-box .button:active {
+  transform: translateY(-50%) scale(0.98);
+}
+
+/* Responsive */
+@media screen and (max-width: 500px) {
+  .input-box {
+    height: 66px;
+    /* margin: 0 8px; */
+    margin-top: 1rem;
+  }
+  .input-box i {
+    left: 12px;
+    font-size: 25px;
+  }
+  .input-box input {
+    padding: 0 112px 0 50px;
+  }
+  .input-box .button {
+    right: 12px;
+    font-size: 14px;
+    padding: 8px 18px;
+  }
+}
+
+.serach-results{
+  position: absolute;
+  top: 5rem;
+  left: 0;
+  /* border: 2px solid rgba(0, 0, 0, 0.475); */
+  width: 100%;
+  background-color: #eeeeee;
+  border-radius: 0.4rem;
+  padding: 0.6rem;
+}
+li{
+  list-style-type: none;
+  padding: 0.6rem;
+}
+
+.chart-box{
+  width: 96vw;
+  padding: 2rem;
+}
+
+.search-item{
+  cursor: pointer;
+}
+.search-item:hover{
+  background-color: #ffffff;
+}
+.stock-name{
+  text-align: center;
+  font-size: 2rem;
+  padding: 2rem;
+}
+
+.footer-box{
+  text-align: center;
+}
+.footer-box h2{
+  font-weight: 500;
+  font-size: 2rem;
+  padding: 1rem;
+}
+.footer-box p{
+  font-size: 1.2rem;
+  padding: 0.6rem;
+}
